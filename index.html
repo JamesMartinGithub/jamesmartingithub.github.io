@@ -1,7 +1,165 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link href="main.css" rel="stylesheet"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<div id="topbar">
+		<ul id="barli">
+			<li id="barli"><h3 id="name">James Martin</h3></li>
+			<li id="barli"><p id="job">Game Programmer</p></li>
+		</ul>
+	</div>
+	<h1 id="title">Portfolio</h1>
+	<div id="ghbg">
+		<a id="ghlink" href="https://github.com/JamesMartinGithub?tab=repositories" target="_blank"><img id="ghlink" src="Images/github-mark.png" alt="Link to GitHub page"></img><a>
+	</div>
+	<div class="grid-container">
+		<div class="grid-item">
+			<img src="Images/Puzzle-Prison-Grid.png"></img>
+			<p>Puzzle Prison (2023)</p>
+		</div>
+		<div class="grid-item">
+			<img src="Images/Castle-Clash-Grid.png"></img>
+			<p>Castle Clash (2021)</p>
+		</div>
+		<div class="grid-item">
+			<img src="Images/Monster-Burger-Grid.png"></img>
+			<p>Monster Burger Co. (2018)</p>
+		</div>
+		<div class="grid-item">
+			<img src="Images/2048-Grid.png"></img>
+			<p>2048 clone (2020)</p>
+		</div>
+		<div class="grid-item">[to be added]</div>
+		<div class="grid-item">[to be added]</div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+		<div class="grid-item"></div>
+	</div>
+	<div id= "projectsContainer">
+		<div class="project">
+			<div>
+				<h1 class="projectHead">Puzzle Prison</h1>
+				<h3 class="projectSub">2023, For coursework, 2.5D horror-puzzle</h3>
+				<p>This game was made as part of coursework for the module 'Games Design and Development' - The only requirements were a tutorial level and a core dynamic.</p>
+				<p>It features a tutorial level without instructions so that the player discovers mechanics for themselves, and a main level that consists of a linear prison map with each door requiring a puzzle solution to open and progress.</p>
+				<p>The puzzle scripts are written with variable difficulty as a focus and have variables assignable outside the scripts, so puzzle solutions can be changed quickly and easily, and level development is sped up as a result.</p>
+				<p>All assets for the game were made by myself with the exception of the font, pixel shader, some sound effects, and some images.</p>
+				<p class="techs">Technologies/Techniques used:</p>
+				<ul>
+					<li id="projectli">• Unity HDRP, post processing, and masking</li>
+					<li id="projectli">• Camera stacking and render layers/light layers</li>
+					<li id="projectli">• Smooth interpolation and animations</li>
+					<li id="projectli">• A mix of 2D sprites and 3D models</li>
+					<li id="projectli">• Raycasting and runtime mesh deformation</li>
+					<li id="projectli">• Game audio and music</li>
+				</ul>
+			</div>
+			<div>
+				<a id="ghlink2" href="https://github.com/JamesMartinGithub?tab=repositories" target="_blank"><img id="ghlink2" src="Images/GitHub_Logo.png" alt="Link to GitHub page"></img><a>
+			</div>
+			<div class="gifs">
+				<img class="gif" src="Images/PrisonPuzzle1.gif"></img>
+				<img class="gif" src="Images/PrisonPuzzle2.gif"></img>
+				<img class="gif" src="Images/PrisonPuzzle3.gif"></img>
+			</div>
+			<div class="gifs">
+				<img class="gif" src="Images/PrisonPuzzle4.gif"></img>
+				<img class="gif" src="Images/PrisonPuzzle5.gif"></img>
+				<img class="gif" src="Images/PrisonPuzzle6.gif"></img>
+			</div>
+		</div>
+		<div class="project">
+			<div>
+				<h1 class="projectHead">Castle Clash</h1>
+				<h3 class="projectSub">2021, For A-Level project, VR Realtime-Strategy</h3>
+				<p>This game was my A-Level CS project, for which there were no prompts.</p>
+				<p>It features a tutorial that explains the game mechanics and highlights each area of interest in yellow as its are talked about. It also has a main gamemode where the player can gain gold overtime, spend gold on units, move units around by picking them up, and move units into the infirmary to heal them.</p>
+				<p>The main feature of the game is the ability to physically pick units up using the VR headset's controllers, which makes the game more immersive. The player plays against an NPC who plays moves that depend on the current state of the game; e.g places units in defence when their base is under attack</p>
+				<p>All assets for the game were made by myself with the exception of the font, the units' body model (but not helmet), and some ground textures.</p>
+				<p class="techs">Technologies/Techniques used:</p>
+				<ul>
+					<li id="projectli">• VR controls through SteamVR plugin, VR optimisations, and world-space UI</li>
+					<li id="projectli">• Particle systems, cloth simulation, and ragdolls</li>
+					<li id="projectli">• Unity HDRP post-processing and masking</li>
+					<li id="projectli">• Agent navigation with NavMesh</li>
+					<li id="projectli">• 3D modelling, sprite creation, character animation, and lighting</li>
+				</ul>
+			</div>
+			<div>
+				<a id="ghlink2" href="https://github.com/JamesMartinGithub?tab=repositories" target="_blank"><img id="ghlink2" src="Images/GitHub_Logo.png" alt="Link to GitHub page"></img><a>
+			</div>
+			<div class="gifs">
+				<img class="gif" src="Images/CastleClash1.gif"></img>
+				<img class="gif" src="Images/CastleClash2.gif"></img>
+				<img class="gif" src="Images/CastleClash3.gif"></img>
+			</div>
+			<div class="gifs">
+				<img class="gif" src="Images/CastleClash4.gif"></img>
+				<img class="gif" src="Images/CastleClash5.gif"></img>
+				<img class="gif" src="Images/CastleClash6.gif"></img>
+			</div>
+		</div>
+		<div class="project">
+			<div>
+				<h1 class="projectHead">Monster Burger Co.</h1>
+				<h3 class="projectSub">2018, For school game competition, VR Time-Management</h3>
+				<p>The competition was open to the whole school and the prompt was 'creatures'. This won the competition and the school said, about the project:</p>
+				<i>"This year’s overall winner, James (Fifth Year), created something truly exceptional, building a game using Virtual Reality. The planning, but more significantly, the genuinely immersive experience would not have been out of place next to some of the professional games found online".</i>
+				<p>The aim of the game is to make burgers based off random orders that come in, if the player misses 3 orders the game ends. There is a burger making station, oven, and a chip fryer station.</p>
+				<p>The theme of the game is 'monsters' so the burger fillings are spiders and eyes, and if you lose a monster eats you to end the game.</p>
+				<p>All assets for the game were made by myself with the exception of the font, some sound effects, and two textures.</p>
+				<p class="techs">Technologies/Techniques used:</p>
+				<ul>
+					<li id="projectli">• VR controls through SteamVR plugin and world-space UI</li>
+					<li id="projectli">• Particle systems, rigging, and animation</li>
+					<li id="projectli">• Metaballs and mesh vertex colouring</li>
+					<li id="projectli">• Game audio and music production</li>
+					<li id="projectli">• 3D modelling, motion capture through xbox kinect, and video editing</li>
+				</ul>
+			</div>
+			<div>
+				<p>(Demonstration videos use MNK but gameplay is room-space VR)</p>
+			</div>
+			<div class="gifs">
+				<img class="gif" src="Images/MonsterBurger1.gif"></img>
+				<img class="gif" src="Images/MonsterBurger2.gif"></img>
+				<img class="gif" src="Images/MonsterBurger3.gif"></img>
+			</div>
+			<div class="gifs">
+				<img class="gif" src="Images/MonsterBurger4.gif"></img>
+				<img class="gif" src="Images/MonsterBurger5.gif"></img>
+				<img class="gif" src="Images/MonsterBurger6.gif"></img>
+			</div>
+		</div>
+		<div class="project">
+			<div>
+				<h1 class="projectHead">2048 Clone</h1>
+				<h3 class="projectSub">2020, For fun, 2D Mobile Puzzle</h3>
+				<p>A clone of the game 2048 made for fun.</p>
+				<p></p>
+				<p><p>
+				<p>All assets for the game were made by myself with the exception of the font.</p>
+				<p class="techs">Technologies/Techniques used:</p>
+				<ul>
+					<li id="projectli">• Touch gestures as input</li>
+					<li id="projectli">• Using Android SDK to generate apk</li>
+					<li id="projectli">• Smooth interpolation</li>
+					<li id="projectli">• Sprite creation and animation</li>
+				</ul>
+			</div>
+			<div>
+			</div>
+			<div class="gifs">
+				<img class="gif" src="Images/2048Clone1.gif"></img>
+				<img class="gif" src="Images/2048Clone2.gif"></img>
+				<img class="gif" src="Images/2048Clone3.gif"></img>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

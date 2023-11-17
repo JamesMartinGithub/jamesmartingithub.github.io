@@ -1,0 +1,163 @@
+body {
+	height: 1000px;
+	min-width: 100%;
+	<!--background-image: linear-gradient(30deg, #9DA9A2, #CADDDD);
+	background-image: linear-gradient(30deg, #E6E6DE, #E6E6DE);
+	font-family: 'Roboto', sans-serif;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+#topbar {
+	height: 50px;
+	background-color: #90908B;
+	width: 100%;
+	display: inline-block;
+	padding-left: 0px;
+	margin-left: 0px;
+	overflow: hidden;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+div#topbar > * {
+    vertical-align:middle;
+}
+
+#barli {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+
+#projectli {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#name {
+	font-size: 30px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	padding-left: 8px;
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+#job {
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+#title {
+	text-align: center;
+	font-size: 80px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#ghbg {
+	margin: auto;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(0, 0, 0, 0);
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+}
+
+#ghlink {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	width: 30px;
+}
+
+#ghlink2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 41px;
+	width: 100px;
+	opacity: 80%;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  padding-top: 20px;
+  column-gap: 0px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+	height: 309px;
+	width: 550px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	border-radius: 10px;
+}
+
+img.gif {
+	height: 215px;
+	width: 385px;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+
+#projectsContainer {
+	text-align: center;
+}
+
+div.project {
+	text-align: center;
+	display: inline-block;
+	border: 5px solid rgba(40, 40, 40, 1);
+	width: 1500px;
+	margin-bottom: 10px;
+}
+
+div.gifs {
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+h1.projectHead {
+	margin-bottom: 5px;
+	font-size: 50px;
+}
+
+h3.projectSub {
+	margin-top: 5px;
+	color: rgba(40, 40, 40, 1);
+}
+
+p {
+	font-size: 20px;
+}
+
+p.techs {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgba(40, 40, 40, 1);
+}
