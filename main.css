@@ -1,11 +1,15 @@
 body {
-	height: 1000px;
 	min-width: 100%;
-	<!--background-image: linear-gradient(30deg, #9DA9A2, #CADDDD);
-	background-image: linear-gradient(30deg, #E6E6DE, #E6E6DE);
+	background-color: #E6E6DE;
 	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 	margin-left: 0px;
 	margin-top: 0px;
+}
+
+html {
+	font-weight: 300;
+	scroll-behavior: smooth;
 }
 
 #topbar {
@@ -31,6 +35,67 @@ div#topbar > * {
 	display: inline-block;
 }
 
+div.summary {
+	margin-left: 42px;
+}
+
+div.summary > * {
+	display: inline-block;
+	font-size: 25px;
+	margin-top: 2px;
+	margin-bottom: 6px;
+}
+
+div.summary > b {
+	font-weight: 700;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+div.summary > img {
+	vertical-align: middle;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 0px;
+}
+
+div.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: #90908B;
+	font-weight: bold;
+	margin: 0px;
+	width: 90px;
+	height: 70px;
+	padding: 0px;
+	border-radius: 10px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: 0;
+	color: rgba(40, 40, 40, 1);
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+div.sticky p {
+	color: rgba(40, 40, 40, 1);
+	font-size: 23px;
+}
+
+div.sticky a {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
 #projectli {
 	border: 0px;
 	margin: 0px;
@@ -38,6 +103,12 @@ div#topbar > * {
 	display: block;
 	font-size: 25px;
 	font-weight: bold;
+	text-align: center;
+}
+
+#projectul {
+	padding-inline-start: 0px;
+	text-align: center;
 }
 
 #name {
@@ -48,6 +119,7 @@ div#topbar > * {
 	padding-left: 8px;
 	padding-top: 5px;
 	padding-right: 10px;
+	font-weight: 300;
 }
 
 #job {
@@ -59,15 +131,16 @@ div#topbar > * {
 
 #title {
 	text-align: center;
-	font-size: 80px;
+	font-size: 100px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	font-weight: 300;
 }
 
 #ghbg {
 	margin: auto;
-	height: 40px;
-	width: 40px;
+	height: 60px;
+	width: 60px;
 	background-color: rgba(0, 0, 0, 0);
 	display: flex;
 	align-items: center;
@@ -78,12 +151,12 @@ div#topbar > * {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	height: 30px;
-	width: 30px;
+	height: 50px;
+	width: 50px;
 }
 
 #ghlink2 {
-	display: block;
+	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
 	height: 41px;
@@ -91,18 +164,27 @@ div#topbar > * {
 	opacity: 80%;
 }
 
+#pdlink {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 41px;
+	width: 200px;
+	opacity: 80%;
+}
+
 .grid-container {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  width: 100%;
-  padding-top: 20px;
-  column-gap: 0px;
+	display: inline-grid;
+	grid-template-columns: auto auto auto;
+	width: 100%;
+	padding-top: 20px;
+	column-gap: 0px;
 }
 
 .grid-item {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
 }
 
 img {
@@ -131,15 +213,29 @@ img.gif {
 
 div.project {
 	text-align: center;
-	display: inline-block;
-	border: 5px solid rgba(40, 40, 40, 1);
-	width: 1500px;
+	border: 5px solid #90908B;
+	max-width: 1500px;
 	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 div.gifs {
-	display: inline-block;
+	display: block;
 	padding-bottom: 5px;
+}
+
+div.gifstext {
+	min-height: 20px;
+	padding-bottom: 5px;
+	padding-top: 0px;
+}
+
+div.gifstext p {
+	display: inline-block;
+	width: 385px;
+	vertical-align: middle;
+	margin: 0px;
 }
 
 h1.projectHead {
@@ -160,4 +256,22 @@ p.techs {
 	font-size: 20px;
 	font-weight: bold;
 	color: rgba(40, 40, 40, 1);
+}
+
+.linklist {
+	text-align: center;
+	display: block;
+}
+
+.linklistin {
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 20px;
+	color: rgba(60, 60, 60, 1);
+}
+
+#toplink {
+	border: 0px;
+	margin
 }

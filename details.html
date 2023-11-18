@@ -13,71 +13,22 @@
 			<li id="barli"><p id="job">Game Programmer</p></li>
 		</ul>
 	</div>
-	<h1 id="title">Portfolio</h1>
+	<h1 id="title">Project Details</h1>
 	<div id="ghbg">
-		<a id="ghlink" href="https://github.com/JamesMartinGithub?tab=repositories" target="_blank"><img id="ghlink" src="Images/github-mark.png" alt="Link to GitHub page"></img></a>
-	</div>
-	<div class="summary">
-		<p>Platforms I've developed for: </p>
-		<b>PC</b>
-		<b>Android</b>
-		<b>IOS</b>
-		<b>VR</b>
-		<b>XR</b>
-	</div>
-	<div class="summary">
-		<p>Engines/IDEs/SDKs I use: </p>
-		<img style="width:35px;height:40px" src="Images/Unity.PNG" title="Unity" alt="Unity"></img>
-		<img style="width:40px;height:40px" src="Images/Git.PNG" title="Git" alt="Git"></img>
-		<img style="width:40px;height:40px" src="Images/VisualStudio.PNG" title="Visual Studio" alt="Visual Studio"></img>
-		<img style="width:30px;height:40px" src="Images/AndroidStudio.PNG" title="Android Studio" alt="Android Studio"></img>
-		<img style="width:40px;height:40px" src="Images/Pycharm.PNG" title="Pycharm" alt="Pycharm"></img>
-		<img style="width:40px;height:40px" src="Images/Intellij.PNG" title="Intellij" alt="Intellij"></img>
-		<img style="width:60px;height:40px" src="Images/Arduino.PNG" title="Arduino" alt="Arduino"></img>
-		<img style="width:32px;height:40px" src="Images/Vuforia.PNG" title="Vuforia" alt="Vuforia"></img>
-		<img style="width:150px;height:40px" src="Images/SteamVR.PNG" title="SteamVR" alt="SteamVR"></img>
-	</div>
-	<div class="summary">
-		<p>Languages I use: </p>
-		<b>C#</b>
-		<b>Java</b>
-		<b>Python</b>
-		<b>Haskell</b>
-		<b>C++</b>
-	</div>
-	<div class="grid-container">
-		<div class="grid-item">
-			<a id="toplink" href="#PuzzlePrison"><img src="Images/Puzzle-Prison-Grid.PNG"></img></a>
-			<p>Puzzle Prison (2023)</p>
-		</div>
-		<div class="grid-item">
-			<a id="toplink" href="#CastleClash"><img src="Images/Castle-Clash-Grid.PNG"></img></a>
-			<p>Castle Clash (2021)</p>
-		</div>
-		<div class="grid-item">
-			<a id="toplink" href="#MonsterBurgerCo"><img src="Images/Monster-Burger-Grid.PNG"></img></a>
-			<p>Monster Burger Co. (2018)</p>
-		</div>
-		<div class="grid-item">
-			<a id="toplink" href="#2048Clone"><img src="Images/2048-Grid.PNG"></img></a>
-			<p>2048 clone (2020)</p>
-		</div>
-		<div class="grid-item">[to be added]</div>
-		<div class="grid-item">[to be added]</div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-	</div>
-	<div class="sticky">
-		<a href="#"><p>To top</p></a>
+		<a id="ghlink" href="https://github.com/JamesMartinGithub?tab=repositories" target="_blank"><img id="ghlink" src="Images/github-mark.png" alt="Link to GitHub page"></img><a>
 	</div>
 	<div id= "projectsContainer">
 		<div class="project">
 			<div>
 				<a name="PuzzlePrison"><h1 class="projectHead">Puzzle Prison</h1></a>
 				<h3 class="projectSub">2023, For coursework, 2.5D horror-puzzle, 2 person project (though all implementation was myself)</h3>
+				<p>This was a 2 person project - my partner helped with level design and some environment texture creation, while I did the rest including all unity implementation and other asset creation.</p>
+				<p>This game was made as part of coursework for the module 'Games Design and Development' - The only requirements were a tutorial level and a core dynamic.</p>
+				<p>It features a tutorial level without instructions so that the player discovers mechanics for themselves, and a main level that consists of a linear prison map with each door requiring a puzzle solution to open and progress.</p>
+				<p>The puzzle scripts are written with variable difficulty as a focus and have variables assignable outside the scripts, so puzzle solutions can be changed quickly and easily, and level development is sped up as a result.</p>
+				<p>All assets for the game were made by myself with the exception of the font, pixel shader, some sound effects, and some images.</p>
 				<p class="techs">Technologies/Techniques used:</p>
-				<ul id="projectul">
+				<ul>
 					<li id="projectli">• Unity HDRP, post processing, and masking</li>
 					<li id="projectli">• Camera stacking and render layers/light layers</li>
 					<li id="projectli">• Smooth interpolation and animations</li>
@@ -85,10 +36,6 @@
 					<li id="projectli">• Raycasting and runtime mesh deformation</li>
 					<li id="projectli">• Game audio and music</li>
 				</ul>
-			</div>
-			<div class="linklist">
-				<b class="linklistin">Further details: </b>
-				<a class="linklistin" id="pdlink" href="details.html#PuzzlePrison" target="_blank"><img id="pdlink" src="Images/ProjectDetails.PNG" alt="Link to Project Details page"></img><a>
 			</div>
 			<div class="linklist">
 				<b class="linklistin">Codebase and executable: </b>
@@ -99,16 +46,30 @@
 				<img class="gif" src="Images/PrisonPuzzle2.gif"></img>
 				<img class="gif" src="Images/PrisonPuzzle3.gif"></img>
 			</div>
+			<div class="gifstext">
+				<p>Text narration system</p>
+				<p>Player movement</p>
+				<p>Running away from an enemy</p>
+			</div>
 			<div class="gifs">
 				<img class="gif" src="Images/PrisonPuzzle4.gif"></img>
 				<img class="gif" src="Images/PrisonPuzzle5.gif"></img>
 				<img class="gif" src="Images/PrisonPuzzle6.gif"></img>
+			</div>
+			<div class="gifstext">
+				<p>Lockpicking puzzle</p>
+				<p>Keypad puzzle</p>
+				<p>Combination puzzle</p>
 			</div>
 		</div>
 		<div class="project">
 			<div>
 				<a name="CastleClash"><h1 class="projectHead">Castle Clash</h1></a>
 				<h3 class="projectSub">2021, For A-Level project, VR Realtime-Strategy, Solo project</h3>
+				<p>This game was my A-Level CS project, for which there were no prompts.</p>
+				<p>It features a tutorial that explains the game mechanics and highlights each area of interest in yellow as its are talked about. It also has a main gamemode where the player can gain gold overtime, spend gold on units, move units around by picking them up, and move units into the infirmary to heal them.</p>
+				<p>The main feature of the game is the ability to physically pick units up using the VR headset's controllers, which makes the game more immersive. The player plays against an NPC who plays moves that depend on the current state of the game; e.g places units in defence when their base is under attack</p>
+				<p>All assets for the game were made by myself with the exception of the font, the units' body model (but not helmet), and some ground textures.</p>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• VR controls through SteamVR plugin, VR optimisations, and world-space UI</li>
@@ -119,10 +80,6 @@
 				</ul>
 			</div>
 			<div class="linklist">
-				<b class="linklistin">Further details: </b>
-				<a class="linklistin" id="pdlink" href="details.html#CastleClash" target="_blank"><img id="pdlink" src="Images/ProjectDetails.PNG" alt="Link to Project Details page"></img><a>
-			</div>
-			<div class="linklist">
 				<b class="linklistin">Codebase and executable: </b>
 				<a class="linklistin" id="ghlink2" href="https://github.com/JamesMartinGithub?tab=repositories" target="_blank"><img id="ghlink2" src="Images/GitHub_Logo.png" alt="Link to GitHub page"></img><a>
 			</div>
@@ -131,16 +88,31 @@
 				<img class="gif" src="Images/CastleClash2.gif"></img>
 				<img class="gif" src="Images/CastleClash3.gif"></img>
 			</div>
+			<div class="gifstext">
+				<p>Selecting and placing units</p>
+				<p>Units fighting and dying</p>
+				<p>Player's base is destroyed</p>
+			</div>
 			<div class="gifs">
 				<img class="gif" src="Images/CastleClash4.gif"></img>
 				<img class="gif" src="Images/CastleClash5.gif"></img>
 				<img class="gif" src="Images/CastleClash6.gif"></img>
+			</div>
+			<div class="gifstext">
+				<p>Moving unit into infirmary</p>
+				<p>Tutorial with highlighting</p>
+				<p>Enemy's base is destroyed</p>
 			</div>
 		</div>
 		<div class="project">
 			<div>
 				<a name="MonsterBurgerCo"><h1 class="projectHead">Monster Burger Co.</h1></a>
 				<h3 class="projectSub">2018, For school game competition, VR Time-Management, Solo project</h3>
+				<p>The competition was open to the whole school and the prompt was 'creatures'. This won the competition and the school said, about the project:</p>
+				<i>"This year’s overall winner, James (Fifth Year), created something truly exceptional, building a game using Virtual Reality. The planning, but more significantly, the genuinely immersive experience would not have been out of place next to some of the professional games found online".</i>
+				<p>The aim of the game is to make burgers based off random orders that come in, if the player misses 3 orders the game ends. There is a burger making station, oven, and a chip fryer station.</p>
+				<p>The theme of the game is 'monsters' so the burger fillings are spiders and eyes, and if you lose a monster eats you to end the game.</p>
+				<p>All assets for the game were made by myself with the exception of the font, some sound effects, and two textures.</p>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• VR controls through SteamVR plugin and world-space UI</li>
@@ -150,10 +122,6 @@
 					<li id="projectli">• 3D modelling, motion capture through xbox kinect, and video editing</li>
 				</ul>
 			</div>
-			<div class="linklist">
-				<b class="linklistin">Further details: </b>
-				<a class="linklistin" id="pdlink" href="details.html#MonsterBurgerCo" target="_blank"><img id="pdlink" src="Images/ProjectDetails.PNG" alt="Link to Project Details page"></img><a>
-			</div>
 			<div>
 				<p>(Demonstration videos use MNK but gameplay is room-space VR)</p>
 			</div>
@@ -162,26 +130,36 @@
 				<img class="gif" src="Images/MonsterBurger2.gif"></img>
 				<img class="gif" src="Images/MonsterBurger3.gif"></img>
 			</div>
+			<div class="gifstext">
+				<p>Failing 3 orders and losing</p>
+				<p>New random orders sliding in</p>
+				<p>Serving/Binning burgers</p>
+			</div>
 			<div class="gifs">
 				<img class="gif" src="Images/MonsterBurger4.gif"></img>
 				<img class="gif" src="Images/MonsterBurger5.gif"></img>
 				<img class="gif" src="Images/MonsterBurger6.gif"></img>
+			</div>
+			<div class="gifstext">
+				<p>Interaction with frying station</p>
+				<p>Menu metaball background</p>
+				<p>Missing an order + interactables</p>
 			</div>
 		</div>
 		<div class="project">
 			<div>
 				<a name="2048Clone"><h1 class="projectHead">2048 Clone</h1></a>
 				<h3 class="projectSub">2020, For fun, 2D Mobile Puzzle, Solo project</h3>
+				<p>A clone of the game 2048 made for fun and to learn android app development - as with the real game, the aim is to combine numbers by swiping until the number 2048 is reached. The game can be reset and two random start positions are chosen, and the game keeps track of the highest achieved score. The player loses if they swipe in a direction where no blocks can move.</p>
+				<p>Blocks are kept track of using coordinate-based object names, and when combining their position and colour lerps to their target values smoothly.</p>
+				<p>One particular challenge was preventing empty spaces being left if all blocks move at the same time - my solution was to handle block movement column-by-column starting from the target direction, this resulted in no gaps being left.</p>
+				<p>All assets for the game were made by myself with the exception of the font.</p>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• Touch gestures as input</li>
 					<li id="projectli">• Mobile deployment using Android SDK</li>
 					<li id="projectli">• Sprite creation, animation, and interpolation</li>
 				</ul>
-			</div>
-			<div class="linklist">
-				<b class="linklistin">Further details: </b>
-				<a class="linklistin" id="pdlink" href="details.html#2048Clone" target="_blank"><img id="pdlink" src="Images/ProjectDetails.PNG" alt="Link to Project Details page"></img><a>
 			</div>
 			<div class="linklist">
 				<b class="linklistin">Codebase and executable: </b>
@@ -191,6 +169,11 @@
 				<img class="gif" src="Images/2048Clone1.gif"></img>
 				<img class="gif" src="Images/2048Clone2.gif"></img>
 				<img class="gif" src="Images/2048Clone3.gif"></img>
+			</div>
+			<div class="gifstext">
+				<p>Running out of moves; losing</p>
+				<p>Swiping and block combining</p>
+				<p>Game resetting and start randomisation</p>
 			</div>
 		</div>
 	</div>
