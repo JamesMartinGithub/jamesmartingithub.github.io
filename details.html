@@ -19,24 +19,28 @@
 	<div id="ghbg">
 		<a id="ghlink" href="https://github.com/JamesMartinGithub?tab=repositories" target="_blank"><img id="ghlink" src="Images/github-mark.png" alt="Link to GitHub page"></img><a>
 	</div>
-	<div id= "projectsContainer">
+	<div id="projectsContainer">
 		<div class="project">
 			<div>
 				<a name="eLearningTool"><h1 class="projectHead">Gamified eLearning Tool</h1></a>
 				<h3 class="projectSub">2024, For thesis project, 2D tool, Solo project</h3>
-				<p>An application developed for my thesis titled: "Improving learning to program for noncomputer science undergraduates by creating a gamified application".</p>
-				<p>This includes two sets of levels where the user creates programs using a train-track-based language and a pseudocode-like language to solve puzzles, in order to introduce programming language constructs and ease the transition to real languages.</p>
-				<p>All assets for the game were made by myself with the exception of the lexer generator, font, file browser, and some images.</p>
-				<ul>
+				<div id="details">
+					<p>An application developed for my thesis titled: "Improving learning to program for noncomputer science undergraduates by creating a gamified application".</p>
+					<p>This includes two sets of levels with tasks that involve two custom programming languages of varying abstraction, with parsers built from scratch. They are meant to introduce programming language constructs to the learner and ease the transition to established languages. Each level provides feedback to help the learner find solutions themselves.</p>
+					<p>The first language takes the form of visual train tracks and stops that the user drags together to create a complete track program. The program executes visually as the train follows the track and variables are shown changing when stops are visited. This helps the learner understand program flow and debug their solutions.</p>
+					<p>The second language resembles pseudocode but with explicit variable assignment and modification. The code is written like a formal language to act as a stepping stone to traditional coding.</p>
+					<p>All ideas and assets for the program were my own, with the exception of the lexer generator, font, file browser, and some images.</p>
 					<p class="techs">Main features:<p>
-					<li>• Custom pseudocode-like language and accompanying parser and evaluator built from scratch</li>
-					<li>• Many constructs supported: Conditionals, iteration, arithmetic/comparative/boolean operators, types and arrays etc</li>
-					<li>• Custom abstract rail-based language and accompanying evaluator implemented using trees and nodes</li>
-					<li>• Syntax and type checking give detailed custom error messages, with error locations</li>
-					<li>• User data saving and loading, and user personalisation</li>
-					<li>• Custom levels and sanbox mode</li>
-					
-				</ul>
+					<ul>
+						<li>• Custom pseudocode-like language and accompanying parser and evaluator built from scratch</li>
+						<li>• Many constructs supported: Conditionals, iteration, arithmetic/comparative/boolean operators, types and arrays etc</li>
+						<li>• Custom abstract rail-based language and accompanying evaluator implemented using trees and nodes</li>
+						<li>• Syntax and type checking give detailed custom error messages, with error locations</li>
+						<li>• User data saving and loading, and user personalisation</li>
+						<li>• Custom levels and sandbox mode</li>
+						
+					</ul>
+				</div>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• Lexeme parsing and AST evaluation of a custom programming language</li>
@@ -51,34 +55,36 @@
 			</div>
 			<div class="gifs">
 				<img class="gif" src="Images/eLearningTool1.gif"></img>
-				<img class="gif" src="Images/eLearningTool2.gif"></img>
-				<img class="gif" src="Images/eLearningTool3.gif"></img>
-			</div>
-			<div class="gifstext">
-				<p>Custom error messages</p>
-				<p>Supported constructs</p>
-				<p>Level selection</p>
-			</div>
-			<div class="gifs">
-				<img class="gif" src="Images/eLearningTool4.gif"></img>
 				<img class="gif" src="Images/eLearningTool5.gif"></img>
 				<img class="gif" src="Images/eLearningTool6.gif"></img>
 			</div>
 			<div class="gifstext">
-				<p>User personalisation</p>
+				<p>Custom error messages</p>
 				<p>Train-track language</p>
 				<p>Tain level execution</p>
+			</div>
+			<div class="gifs">
+				<img class="gif" src="Images/eLearningTool3.gif"></img>
+				<img class="gif" src="Images/eLearningTool2.gif"></img>
+				<img class="gif" src="Images/eLearningTool4.gif"></img>
+			</div>
+			<div class="gifstext">
+				<p>Level selection</p>
+				<p>Supported constructs</p>
+				<p>User personalisation</p>
 			</div>
 		</div>
 		<div class="project">
 			<div>
 				<a name="PuzzlePrison"><h1 class="projectHead">Puzzle Prison</h1></a>
 				<h3 class="projectSub">2023, For coursework, 2.5D horror-puzzle, 2 person project (though all implementation was myself)</h3>
-				<p>This was a 2 person project - my partner helped with level design and some environment texture creation, while I did the rest including all unity implementation and other asset creation. This game was made as part of coursework for the module 'Games Design and Development' - The only requirements were a tutorial level and a core dynamic.</p>
-				<p>It features a tutorial level without instructions so that the player discovers mechanics for themselves, and a main level that consists of a linear prison map with each door requiring a puzzle solution to open and progress.</p>
-				<p>There are 3 types of puzzles: a lockpicking puzzle, a keypad puzzle, and a combination lock puzzle - the latter two have solutions hidden in the level for the player to find and solve.</p>
-				<p>The puzzle scripts are written with variable difficulty as a focus and have variables assignable outside the scripts, so puzzle solutions can be changed quickly and easily, and level development is sped up as a result.</p>
-				<p>All assets for the game were made by myself with the exception of the font, pixel shader, some sound effects, and some images.</p>
+				<div id="details">
+					<p>This was a 2 person project - my partner helped with level design and some environment texture creation, while I did the rest including all unity implementation and other asset creation. This game was made as part of coursework for the module 'Games Design and Development' - The only requirements were a tutorial level and a core dynamic.</p>
+					<p>It features a tutorial level without instructions so that the player discovers mechanics for themselves, and a main level that consists of a linear prison map with each door requiring a puzzle solution to open and progress.</p>
+					<p>There are 3 types of puzzles: a lockpicking puzzle, a keypad puzzle, and a combination lock puzzle - the latter two have solutions hidden in the level for the player to find and solve.</p>
+					<p>The puzzle scripts are written with variable difficulty as a focus and have variables assignable outside the scripts, so puzzle solutions can be changed quickly and easily, and level development is sped up as a result.</p>
+					<p>All assets for the game were made by myself with the exception of the font, pixel shader, some sound effects, and some images.</p>
+				</div>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• Unity HDRP, post processing, and masking</li>
@@ -118,10 +124,12 @@
 			<div>
 				<a name="CastleClash"><h1 class="projectHead">Castle Clash</h1></a>
 				<h3 class="projectSub">2021, For A-Level project, VR Realtime-Strategy, Solo project</h3>
-				<p>This game was my A-Level CS project, for which there were no prompts, and which got an A*.</p>
-				<p>It features a tutorial that explains the game mechanics and highlights each area of interest in yellow as its are talked about. It also has a main gamemode where the player can gain gold overtime, spend gold on units, move units around by picking them up, and move units into the infirmary to heal them.</p>
-				<p>The main feature of the game is the ability to physically pick units up using the VR headset's controllers, which makes the game more immersive. The player plays against an NPC who plays moves that depend on the current state of the game; e.g places units in defence when their base is under attack</p>
-				<p>All assets for the game were made by myself with the exception of the font, the units' body model (but not helmet), and some ground textures.</p>
+				<div id="details">
+					<p>This game was my A-Level CS project, for which there were no prompts, and which got an A*.</p>
+					<p>It features a tutorial that explains the game mechanics and highlights each area of interest in yellow as its are talked about. It also has a main gamemode where the player can gain gold overtime, spend gold on units, move units around by picking them up, and move units into the infirmary to heal them.</p>
+					<p>The main feature of the game is the ability to physically pick units up using the VR headset's controllers, which makes the game more immersive. The player plays against an NPC who plays moves that depend on the current state of the game; e.g places units in defence when their base is under attack</p>
+					<p>All assets for the game were made by myself with the exception of the font, the units' body model (but not helmet), and some ground textures.</p>
+				</div>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• VR controls through SteamVR plugin, VR optimisations, and world-space UI</li>
@@ -160,11 +168,13 @@
 			<div>
 				<a name="MonsterBurgerCo"><h1 class="projectHead">Monster Burger Co.</h1></a>
 				<h3 class="projectSub">2018, For school game competition, VR Time-Management, Solo project</h3>
-				<p>The competition was open to the whole school and the prompt was 'creatures'. This won the competition and the school said, about the project:</p>
-				<i>"This year’s overall winner, James (Fifth Year), created something truly exceptional, building a game using Virtual Reality. The planning, but more significantly, the genuinely immersive experience would not have been out of place next to some of the professional games found online".</i>
-				<p>The aim of the game is to make burgers based off random orders that come in, if the player misses 3 orders the game ends. There is a burger making station, oven, and a chip fryer station.</p>
-				<p>The theme of the game is 'monsters' so the burger fillings include spiders and eyes, and if you lose a monster eats you to end the game.</p>
-				<p>All assets for the game were made by myself with the exception of the font, some sound effects, and two textures.</p>
+				<div id="details">
+					<p>The competition was open to the whole school and the prompt was 'creatures'. This won the competition and the school said, about the project:</p>
+					<i>"This year’s overall winner, James (Fifth Year), created something truly exceptional, building a game using Virtual Reality. The planning, but more significantly, the genuinely immersive experience would not have been out of place next to some of the professional games found online".</i>
+					<p>The aim of the game is to make burgers based off random orders that come in, if the player misses 3 orders the game ends. There is a burger making station, oven, and a chip fryer station.</p>
+					<p>The theme of the game is 'monsters' so the burger fillings include spiders and eyes, and if you lose a monster eats you to end the game.</p>
+					<p>All assets for the game were made by myself with the exception of the font, some sound effects, and two textures.</p>
+				</div>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• VR controls through SteamVR plugin and world-space UI</li>
@@ -202,10 +212,12 @@
 			<div>
 				<a name="2048Clone"><h1 class="projectHead">2048 Clone</h1></a>
 				<h3 class="projectSub">2020, For fun, 2D Mobile Puzzle, Solo project</h3>
-				<p>A clone of the game 2048 made for fun and to learn android app development - as with the real game, the aim is to combine numbers by swiping until the number 2048 is reached. The game can be reset and two random start positions are chosen, and the game keeps track of the highest achieved score. The player loses if they swipe in a direction where no blocks can move.</p>
-				<p>Blocks are kept track of using coordinate-based object names, and when combining their position and colour lerps to their target values smoothly.</p>
-				<p>One particular challenge was preventing empty spaces being left if all blocks move at the same time - my solution was to handle block movement column-by-column starting from the target direction, this resulted in no gaps being left.</p>
-				<p>All assets for the game were made by myself with the exception of the font.</p>
+				<div id="details">
+					<p>A clone of the game 2048 made for fun and to learn android app development - as with the real game, the aim is to combine numbers by swiping until the number 2048 is reached. The game can be reset and two random start positions are chosen, and the game keeps track of the highest achieved score. The player loses if they swipe in a direction where no blocks can move.</p>
+					<p>Blocks are kept track of using coordinate-based object names, and when combining their position and colour lerps to their target values smoothly.</p>
+					<p>One particular challenge was preventing empty spaces being left if all blocks move at the same time - my solution was to handle block movement column-by-column starting from the target direction, this resulted in no gaps being left.</p>
+					<p>All assets for the game were made by myself with the exception of the font.</p>
+				</div>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• Touch gestures as input</li>
@@ -232,9 +244,11 @@
 			<div>
 				<a name="WaveformVisualiser"><h1 class="projectHead">Waveform Visualiser</h1></a>
 				<h3 class="projectSub">2021, For fun, 2D Tool, Solo project</h3>
-				<p>This project was for fun to try and recreate the waveforms seen in DJ software, and to experiment more with audio processing and OpenGL.</p>
-				<p>The script takes an existing audio file and analyses its amplitude and frequency over time. The frequency is represented by the colours - red is low and blue is high. </p>
-				<p>As the audio is played, the waveform scrolls along to match it, and can be zoomed to see more/less detail.</p>
+				<div id="details">
+					<p>This project was for fun to try and recreate the waveforms seen in DJ software, and to experiment more with audio processing and OpenGL.</p>
+					<p>The script takes an existing audio file and analyses its amplitude and frequency over time. The frequency is represented by the colours - red is low and blue is high. </p>
+					<p>As the audio is played, the waveform scrolls along to match it, and can be zoomed to see more/less detail.</p>
+				</div>
 				<p class="techs">Technologies/Techniques used:</p>
 				<ul>
 					<li id="projectli">• Audio sample manipulation</li>
@@ -257,12 +271,14 @@
 			<div>
 				<a name="RunwayRedeclarationTool"><h1 class="projectHead">Runway Redeclaration Tool</h1></a>
 				<h3 class="projectSub">2023, For coursework, 2D Tool, 6 person project</h3>
-				<p>This project was developed in IntelliJ using git for version management, and GitLab as the repository storage server.</p>
-				<p>This tool allows an ATC worker to recalculate runway lengths and boundries given an obstacle on the runway. It has 5 tabs for runway/obstacle data entry, XML state saving, preset selection, and settings. The lower panel displays the calculation equations and results, the runway is visualised in the center with 3 views (top down/side on/3D), and buttons on the right allow view selection and TTS.</p>
-				<p>This project involved Agile development consisting of 5 sprints - each sprint I helped produce planning documents, implemented my assigned features, and  assisted others with their features and bugs they couldn't fix.</p>
-				<p>Team work and soft skills were an important part of this project; at one point in development an argument started between 2 members of the team over implementation of a feature - I helped mediate the argument and got the members to find a comprimise so that the project was not impacted.</p>
-				<p>For a sprint I was the sprint leader, meaning I was in charge of planning the sprint, ensuring work was completed, specifying how new components in the MVC model would interact, and demonstrating/presenting the tool at the end of the sprint in a stakeholder meeting.</p>
-				<p>Features I was solely responsible for were: XML importing/exporting, the left panel with tabs/value entries/presets, the 3D runway view, the notification system, runway flipping, among others.</p>
+				<div id="details">
+					<p>This project was developed in IntelliJ using git for version management, and GitLab as the repository storage server.</p>
+					<p>This tool allows an ATC worker to recalculate runway lengths and boundries given an obstacle on the runway. It has 5 tabs for runway/obstacle data entry, XML state saving, preset selection, and settings. The lower panel displays the calculation equations and results, the runway is visualised in the center with 3 views (top down/side on/3D), and buttons on the right allow view selection and TTS.</p>
+					<p>This project involved Agile development consisting of 5 sprints - each sprint I helped produce planning documents, implemented my assigned features, and  assisted others with their features and bugs they couldn't fix.</p>
+					<p>Team work and soft skills were an important part of this project; at one point in development an argument started between 2 members of the team over implementation of a feature - I helped mediate the argument and got the members to find a comprimise so that the project was not impacted.</p>
+					<p>For a sprint I was the sprint leader, meaning I was in charge of planning the sprint, ensuring work was completed, specifying how new components in the MVC model would interact, and demonstrating/presenting the tool at the end of the sprint in a stakeholder meeting.</p>
+					<p>Features I was solely responsible for were: XML importing/exporting, the left panel with tabs/value entries/presets, the 3D runway view, the notification system, runway flipping, among others.</p>
+				</div>
 				<p class="techs">Technologies/Techniques I specifically used:</p>
 				<ul>
 					<li id="projectli">• JavaFX UI with scaling and accessability features.</li>
