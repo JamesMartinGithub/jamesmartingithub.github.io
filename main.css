@@ -225,20 +225,13 @@ div.grid-container-outer {
 }
 
 img {
-	height: 309px;
 	width: 550px;
+	height: 309px;
 	border: 0px;
 	padding: 0px;
 	margin: 0px;
 	vertical-align: middle;
 	border-radius: 10px;
-}
-
-a#toplink img {
-	max-width: 550px;
-	min-width: 200px;
-	width: 100%;
-	height: 100%;
 }
 
 img.gif {
@@ -249,6 +242,18 @@ img.gif {
 	margin: 0px;
 	vertical-align: middle;
 	border-radius: 5px;
+}
+
+#synthgifs > img {
+	width: 321px;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+#stockcheckgifs > img {
+	height: 179px;
+	margin-top: 18px;
+	margin-bottom: 18px;
 }
 
 #projectsContainer {
